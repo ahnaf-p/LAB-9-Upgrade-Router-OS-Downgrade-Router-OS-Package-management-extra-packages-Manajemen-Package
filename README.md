@@ -34,26 +34,26 @@ Rabu 13 Agustus 2025
 **B. Secara Otomatis**  
     Berikut cara upgrade mikrotik secara otomatis  
   1. Pergi ke **system > packages**  
-  2. Pilih **Check for Update**
-     ![g](pkg.PNG)
-  4. Disini ada beberapa versi, kita bisa pilih mulai dari yang stable, long term, development sampai yang testing.
-  5. Pilih versi yang diinginkan.
-  6. Klik download&install, pastikan router terkoneksi ke internet.
-     ![d](pkgs.PNG)
+  2. Pilih **Check for Update**  
+     ![g](pkg.PNG)  
+  4. Disini ada beberapa versi, kita bisa pilih mulai dari yang stable, long term, development sampai yang testing.  
+  5. Pilih versi yang diinginkan.  
+  6. Klik download&install, pastikan router terkoneksi ke internet.  
+     ![d](pkgs.PNG)  
   8. Tunggu hingga proses download selesai dan nanti akan reboot secara otomatis  
-  9. Dan sekarang versi RouterOS sudah upgrade.
-      ![i](verion.PNG)
+  9. Dan sekarang versi RouterOS sudah upgrade.  
+      ![i](verion.PNG)  
 
 # Downgrade RouterOS
-  1. Download dulu versi yang lebih lama untuk melakukan downgrade
-  2. Setelah selesai, pindahkan file ROuterOS yang baru di download ke RouterOS seperti tadi mentransfer file saat akan upgrade. Yang bisa melalui WinExplor, Winbox ataupun FileZia
-  3. Setelah selesai, buka winbox dan pergi ke **system > packages**
-     ![w](paket.PNG)
-  5. Klik **Downgrade**, nanti akan ada pop up konfirmasi, pilih **OK** aja.
-     ![k](ribut.PNG)
-  7. System akan otomatis reboot dan start otomatis.
-  8. Cek versinya jika masi belum yakin
-     ![r](persis.PNG)
+  1. Download dulu versi yang lebih lama untuk melakukan downgrade  
+  2. Setelah selesai, pindahkan file ROuterOS yang baru di download ke RouterOS seperti tadi mentransfer file saat akan upgrade. Yang bisa melalui WinExplor, Winbox ataupun FileZia  
+  3. Setelah selesai, buka winbox dan pergi ke **system > packages**  
+     ![w](paket.PNG)  
+  5. Klik **Downgrade**, nanti akan ada pop up konfirmasi, pilih **OK** aja.  
+     ![k](ribut.PNG)  
+  7. System akan otomatis reboot dan start otomatis.  
+  8. Cek versinya jika masi belum yakin  
+     ![r](persis.PNG)  
 
 # Package Management
   
