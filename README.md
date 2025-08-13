@@ -11,7 +11,7 @@ Rabu 13 Agustus 2025
 
 # Upgrade RouterOS
 **A. Secara Manual**  
-  Disini saya akan upgrade RouterOS versi 6.42 ke 7.19. Versi RouterOS bisa dilihat dari **System > Resource**  
+    Disini saya akan upgrade RouterOS versi 6.42 ke 7.19. Versi RouterOS bisa dilihat dari **System > Resource**  
     ![v](reso.PNG)  
   1. Sebelum mendownload RouterOS yang baru, lihat dulu arsitektur prosesornya. Cara lihatnya sama di **system > resource > Architecture name** atau bisa juga di title bar winbox, posisinya ada di paling ujung dan didalam kurung.  
     ![x](reso.PNG)  
@@ -32,7 +32,7 @@ Rabu 13 Agustus 2025
     ![b](persi.PNG)  
 
 **B. Secara Otomatis**  
-  Berikut cara upgrade mikrotik secara otomatis  
+    Berikut cara upgrade mikrotik secara otomatis  
   1. Pergi ke **system > packages**  
   2. Pilih **Check for Update**
      ![g](pkg.PNG)
@@ -45,3 +45,15 @@ Rabu 13 Agustus 2025
       ![i](verion.PNG)
 
 # Downgrade RouterOS
+  1. Download dulu versi yang lebih lama untuk melakukan downgrade
+  2. Setelah selesai, pindahkan file ROuterOS yang baru di download ke RouterOS seperti tadi mentransfer file saat akan upgrade. Yang bisa melalui WinExplor, Winbox ataupun FileZia
+  3. Setelah selesai, buka winbox dan pergi ke **system > packages**
+     ![w](paket.PNG)
+  5. Klik **Downgrade**, nanti akan ada pop up konfirmasi, pilih **OK** aja.
+     ![k](ribut.PNG)
+  7. System akan otomatis reboot dan start otomatis.
+  8. Cek versinya jika masi belum yakin
+     ![r](persis.PNG)
+
+# Package Management
+  
