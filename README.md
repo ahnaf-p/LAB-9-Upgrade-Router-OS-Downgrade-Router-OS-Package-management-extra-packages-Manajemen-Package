@@ -135,18 +135,20 @@ ROuteherBOOT reset button ada 3 fungsi,
            t - do memory testing
 
 **- Simple Upgrade**  
-RouterBOOT bisa di upgrade dari RouterOS,
-jalankan command,
+RouterBOOT bisa di upgrade dari RouterOS,  
+jalankan command,  
 
                 system routerboard upgrade
-Lalu reboot router untuk apply the upgrade
+Lalu reboot router untuk apply the upgrade  
 
                 system reboot
 
-**- Cek versi RouterBOOT**
+**- Cek versi RouterBOOT**  
 
                 system routerboard print
-Atau jika di GUI bisa pergi ke **system > RouterBOARD**
+Atau jika di GUI bisa pergi ke **system > RouterBOARD**  
+  
+![boottt](boot.PNG)  
 
 # Kesimpulan  
 Upgrade, downgrade, menegement package dan extra package di RouterOS dilakukan untuk menyesuaikan fungsi router sesuai kebutuhan. Upgrade ilakukan untuk mendapat kan pembaruan fitur, downgrade dilakukan untuk kembali ke versi sebelumnya jika terjadi masalah atau tidak kompatibel, package management yang dapat mematikan dan menyalakan paket sesuai kebutuhan, dan extra packages untuk memperluas kapabilitas router di luar fungsi standar.  
