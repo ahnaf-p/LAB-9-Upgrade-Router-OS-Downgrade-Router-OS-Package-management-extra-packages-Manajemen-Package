@@ -5,8 +5,7 @@ Rabu 13 Agustus 2025
 - Upgrade Router OS,  
 - Downgrade Router OS,  
 - Package management,  
-- Extra packages,  
-- Manajemen Package,  
+- Extra packages,   
 - RouterBOOT  
 
 # Upgrade RouterOS
@@ -94,6 +93,60 @@ Terlihat, bahwa setelah menginstall extra packages, ada packages yang baru, anta
       Paket ini menambahkan dukungan terhadap Software Defined Networking (SDN). Software Defined Network (SDN) adalah arsitektur jaringan yang memisahkan control plane (bagian yang menentukan bagaimana data mengalir).  
    4. tr069-client  
       Paket ini berfungsi untuk remote management perangkat router menggunakan protokol TR-069. TR-069 dapat digunakan untuk berbagai keperluan, seperti pertukaran data antar perangkat, penyimpanan data dalam basis data, atau penyediaan antarmuka web untuk data  
+
+# RouterBOOT
+RouterBOOT adalah firmware bawaan pada perangkat MikroTik yang berfungsi sebagai bootloader.  
+**- RouterBOARD reset Button**  
+ROuteherBOOT reset button ada 3 fungsi,  
+1. Tahan tombol selagi boot sampai LED light mulai berkedip. Lepaskan untuk mereset RouterOS configuration (total 5 detik).  
+2. Tetap menahan 5 detik lebih lama, LED light menyala tapi tidak berkedip, lepaskan untuk menyalakan CAP mode (total 10 detik).  
+3. Atau tetap menahan tombol 5 detik lebih lama lagi sampai LED Light mati, lalu lepaskan tombol untuk membuat RouterBOARD tampil di Netinstall servers (total 15 detik).  
+**- Configuration**  
+   Untuk perangkat RouterBOARD yang ada fitur serial console connector. Bisa mengakses RouterBOOT loaded configuration menu. RouterBOARD serial ports terkonfigurasi ke 115200bit/s. 0 data bits. 1 stop bit. no parity. Disarankan untuk mematikan hardware flow control.  
+   Contoh tampilan menu dari RouterBOOT 3.19  
+
+           RouterBOOT booter 3.19
+
+        CCR1009-8G-1S-1S+
+
+        CPU frequency: 1200 MHz
+          Memory size: 2048 MiB
+            NAND size: 128 MiB
+            NAND partitions: 2
+
+        Press any key within 2 seconds to enter setup
+
+        RouterBOOT-3.19
+        What do you want to configure?
+           d - boot delay
+           k - boot key
+           s - serial console
+           n - silent boot
+           o - boot device
+           f - cpu frequency
+           r - reset booter configuration
+           e - format nand
+           w - repartition nand
+           y - active partition
+           g - upgrade firmware
+           i - board info
+           p - boot protocol
+           b - booter options
+           t - do memory testing
+
+**- Simple Upgrade**  
+RouterBOOT bisa di upgrade dari RouterOS,
+jalankan command,
+
+                system routerboard upgrade
+Lalu reboot router untuk apply the upgrade
+
+                system reboot
+
+**- Cek versi RouterBOOT**
+
+                system routerboard print
+Atau jika di GUI bisa pergi ke **system > RouterBOARD**
 
 # Kesimpulan  
 Upgrade, downgrade, menegement package dan extra package di RouterOS dilakukan untuk menyesuaikan fungsi router sesuai kebutuhan. Upgrade ilakukan untuk mendapat kan pembaruan fitur, downgrade dilakukan untuk kembali ke versi sebelumnya jika terjadi masalah atau tidak kompatibel, package management yang dapat mematikan dan menyalakan paket sesuai kebutuhan, dan extra packages untuk memperluas kapabilitas router di luar fungsi standar.  
