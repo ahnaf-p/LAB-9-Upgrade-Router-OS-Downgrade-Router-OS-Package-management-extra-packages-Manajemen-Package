@@ -57,5 +57,27 @@ Rabu 13 Agustus 2025
   6. Cek versinya jika masi belum yakin  
      ![r](persis.PNG)  
 
-# Package Management
+# Package Management  
+Berada di **system > packages**  
   
+![s]()  
+    
+  1. Disable
+        Menjadwalkan paket supaya dimatikan setelah reboot berikutnya, setelahnya fitur yang ada di paket itu tidak akan bisa di akses. Jika paket berhasil di disable, paket akan berubah menjadi abu-abu.  
+     ![rty](vfdfg.PNG)
+     ![qwerty](after.PNG)  
+       
+  2. Enable  
+        Menjadwalkan paket supaya dinyalakan setelah reboot berikutnya.  
+
+     ![asdfghjkl](zxcvb.PNG)  
+  4. Downgrade  
+        Menurunkan versi RouterOS ke versi paling lama yang ada di dalam storage Mikrotik.  
+  6. Uninstall  
+        Menghapus paket yang terinstall supaya terhapus di reboot selanjutnya.  
+  8. Unschedule  
+        Menghapus jadwal perubahan yang telah dibuat sebelumnya.
+     ![p](mnbv.PNG)
+     ![rr](tgbhy.PNG)
+
+# Extra Package
