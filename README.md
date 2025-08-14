@@ -1,4 +1,4 @@
-# LAB-9-Upgrade-Router-OS-Downgrade-Router-OS-Package-management-extra-packages-Manajemen-Package
+# LAB-9-Upgrade-Router-OS-Downgrade-Router-OS-Package-management-extra-packages
 Rabu 13 Agustus 2025
 
 **Siswa mampu melakukan :**  
@@ -81,17 +81,19 @@ Berada di **system > packages**
 # Extra Package  
 Extra packages adalah modul tambahan yang dapat diinstal di RouterOS untuk menambah fungsi atau dukungan tertentu yang tidak tersedia pada paket bawaan. Untuk memasang Extra packages caranya sama aja dengan Upgrade Mikrotik. Bisa dilihat di gambar dibawah ini, extra packages untuk smips.  
   
-![dwera]()  
+![dwera](befores.PNG)  
   
-![dfe]()  
+![dfe](afters.PNG)  
 
-Terlihat, bahwa setelah menginstall extra packages, ada packages yang baru, antara lain:
-a.
-b.
-c.
-d.
-   1. IoT
-      Paket ini menyediakan dukungan bagi protokol dan teknologi yang digunakan pada perangkat IoT.
-   3. 
-   4.
-        
+Terlihat, bahwa setelah menginstall extra packages, ada packages yang baru, antara lain:  
+   1. IoT  
+      Paket ini menyediakan dukungan bagi protokol dan teknologi yang digunakan pada perangkat IoT.  
+   2. Multicast  
+      Paket ini memungkinkan pengiriman data yang sama kepada banyak penerima.  
+   3. Openflow  
+      Paket ini menambahkan dukungan terhadap Software Defined Networking (SDN). Software Defined Network (SDN) adalah arsitektur jaringan yang memisahkan control plane (bagian yang menentukan bagaimana data mengalir).  
+   4. tr069-client  
+      Paket ini berfungsi untuk remote management perangkat router menggunakan protokol TR-069. TR-069 dapat digunakan untuk berbagai keperluan, seperti pertukaran data antar perangkat, penyimpanan data dalam basis data, atau penyediaan antarmuka web untuk data  
+
+# Kesimpulan  
+Upgrade, downgrade, menegement package dan extra package di RouterOS dilakukan untuk menyesuaikan fungsi router sesuai kebutuhan. Upgrade ilakukan untuk mendapat kan pembaruan fitur, downgrade dilakukan untuk kembali ke versi sebelumnya jika terjadi masalah atau tidak kompatibel, package management yang dapat mematikan dan menyalakan paket sesuai kebutuhan, dan extra packages untuk memperluas kapabilitas router di luar fungsi standar.  
