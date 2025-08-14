@@ -78,4 +78,20 @@ Berada di **system > packages**
      ![p](mnbv.PNG)
      ![rr](tgbhy.PNG)
 
-# Extra Package
+# Extra Package  
+Extra packages adalah modul tambahan yang dapat diinstal di RouterOS untuk menambah fungsi atau dukungan tertentu yang tidak tersedia pada paket bawaan. Untuk memasang Extra packages caranya sama aja dengan Upgrade Mikrotik. Bisa dilihat di gambar dibawah ini, extra packages untuk smips.  
+  
+![dwera]()  
+  
+![dfe]()  
+
+Terlihat, bahwa setelah menginstall extra packages, ada packages yang baru, antara lain:
+a.
+b.
+c.
+d.
+   1. IoT
+      Paket ini menyediakan dukungan bagi protokol dan teknologi yang digunakan pada perangkat IoT.
+   3. 
+   4.
+        
