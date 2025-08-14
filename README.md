@@ -59,8 +59,6 @@ Rabu 13 Agustus 2025
 
 # Package Management  
 Berada di **system > packages**  
-  
-![s]()  
     
   1. Disable
         Menjadwalkan paket supaya dimatikan setelah reboot berikutnya, setelahnya fitur yang ada di paket itu tidak akan bisa di akses. Jika paket berhasil di disable, paket akan berubah menjadi abu-abu.  
